@@ -1,5 +1,6 @@
 import sys
 
+
 def isMapping(s1, s2):
     if len(s1) != len(s2):
         return False
@@ -9,7 +10,7 @@ def isMapping(s1, s2):
             return False
         if c1 not in map.keys():
             map[c1] = c2
-    return  True     
+    return True
 
 
 if __name__ == "__main__":
